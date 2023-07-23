@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d1c2ea8b80.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand nav-head" href="#" onclick="display('home')">D.</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link" href="#home" id="nav-item1">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#about-me-section" id="nav-item2">About Me</a>
+                    <a class="nav-link" href="#skills-section" id="nav-item3">Skills</a>
+                    <a class="nav-link" href="#projects-section" id="nav-item4">Projects </a>
+                    <a class="nav-link" href="#Internship" id="nav-item5">Internships</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex flex-column justify-content-center" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 order-1 order-md-2">
+                    <img 
+                        src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-banner-img.png"
+                        class="banner-section-img"
+                    />
+                </div>
+                <div class="col-12 col-md-7 order-2 order-md-1 d-flex flex-column justify-content-center">
+                    <h1 class="banner-section-heading mb-3">
+                        Hey, I am <span class="person-name">Deepak</span>
+                    </h1>
+                    <p class="banner-section-description mb-3">
+                        I am Frontend Developer
+                    </p>
+                    <button class="banner-custom-button">Contact Me</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="about-me-section-bg pt-5 pb-5" id="about-me-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 col-md-6 order-1 order-md-2">
+                  <h1 class="about-me-section-sub-heading mb-3">Facts</h1>
+                  <h1 class="about-me-section-heading mb-4">About me</h1>
+                  <img src="https://res.cloudinary.com/dmphy6zc7/image/upload/v1689791862/362d2976_1_wdygql.jpg" class="about-me-section-img d-md-none mb-3 " />
+                  <p class="about-me-section-description">
+                      My name is Deepak Duda, and I am currently looking for a job in Frontend Development. I have completed my training on Frontend Development . I am pursuing My bachelor's degree in Electronics and Communication. People find me to be an upbeat, self-motivated team player with excellent communication skills.
+                      <br/><br/>I am a dedicated person with a family of four. I enjoy reading, and the knowledge and perspective that my reading gives me have strengthened my teaching skills and presentation abilities.
+                   </p>
+               </div>
+              <div class="col-12 col-md-6 d-none d-md-block order-2 order-md-1">
+                  <img src="https://res.cloudinary.com/dmphy6zc7/image/upload/v1689791862/362d2976_1_wdygql.jpg" class="about-me-section-img w-100 mb-4  " />
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="skills-section-bg pt-5 pb-5" id="skills-section">
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                   <h1 class="skills-section-sub-heading mb-3">Skills :</h1>
+              </div>
+              <div class="col-6 col-md-3">
+                  <div class=" shadow skills-card text-center mb-4">
+                      <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="skills-img" />
+                      <h1 class="skills-card-title">HTML</h1>
+                  </div>
+              </div>    
+              <div class="col-6 col-md-3">
+                  <div class=" shadow skills-card text-center mb-4">
+                      <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="skills-img" />
+                      <h1 class="skills-card-title">CSS</h1>
+                  </div>
+              </div> 
+              <div class="col-6 col-md-3">
+                  <div class=" shadow skills-card text-center mb-4">
+                      <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-bootstrap-img.png" class="skills-img" />
+                      <h1 class="skills-card-title">Bootstrap</h1>
+                  </div>
+              </div> 
+              <div class="col-6 col-md-3">
+                  <div class=" shadow skills-card text-center mb-4">
+                      <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-js-img.png" class="skills-img" />
+                      <h1 class="skills-card-title">JS</h1>
+                  </div>
+              </div> 
+              <div class="col-6 col-md-3">
+                <div class=" shadow skills-card text-center mb-4">
+                    <img src="https://res.cloudinary.com/dmphy6zc7/image/upload/v1689792374/python_qemhjl.png" class="skills-img" />
+                    <h1 class="skills-card-title">Python</h1>
+                </div>
+            </div>  
+            <div class="col-6 col-md-3">
+                <div class=" shadow skills-card text-center mb-4">
+                    <img src="https://res.cloudinary.com/dmphy6zc7/image/upload/v1689792551/1200px-C_Programming_Language.svg_dzltvn.png" class="skills-img" />
+                    <h1 class="skills-card-title">C</h1>
+                </div>
+            </div>  
+            <div class="col-6 col-md-3">
+                <div class=" shadow skills-card text-center mb-4">
+                    <img src="https://res.cloudinary.com/dmphy6zc7/image/upload/v1689792614/download_snbqqa.png" class="skills-img" />
+                    <h1 class="skills-card-title">JAVA</h1>
+                </div>
+            </div>  
+          </div>
+      </div>
+  </div>
+  <div class="projects-section-bg pt-5 pb-5" id="projects-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="Projects-section-sub-heading mb-4">Projects</h1>
+                <h1 class="Projects-section-heading mb-3">Projects I have done</h1>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="projects-card mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-1-img.png" class="projects-card-img" />
+                    <div class="p-3">
+                        <h1 class="projects-card-sub-title mb-3">Web design</h1>
+                        <h1 class="projects-card-title">Royal Grand Hotel</h1>
+                        <p class="projects-card-description">
+                            Royal Grand Hotel is a Simple Static Website. We can use this layout for building the other websites...
+                        </p>
+                        <a class="projects-card-link" href="">
+                            Read More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#cced00" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="projects-card mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-2-img.png" class="projects-card-img" />
+                    <div class="p-3">
+                        <h1 class="projects-card-sub-title mb-3">Web design</h1>
+                        <h1 class="projects-card-title">Happy Meals</h1>
+                        <p class="projects-card-description">
+                            Happy Meals is the best-in-class food ordering page today. With interactive UI/UX and simple call to actions...
+                        </p>
+                        <a class="projects-card-link" href="">
+                            Read More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#cced00" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="projects-card mb-3">
+                    <img src="https://res.cloudinary.com/dmphy6zc7/image/upload/v1690107164/Screenshot_173_zljctz.png" class="projects-card-img" />
+                    <div class="p-3">
+                        <h1 class="projects-card-sub-title mb-3">Web design</h1>
+                        <h1 class="projects-card-title">Tourism </h1>
+                        <p class="projects-card-description">
+                            Tourism Website is a Simple Static Website. We can use this layout for building the other websites...
+                        </p>
+                        <a class="projects-card-link" href="">
+                            Read More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#cced00" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="projects-card mb-3">
+                    <img src="https://res.cloudinary.com/dmphy6zc7/image/upload/v1690107108/Screenshot_176_vp9dru.png" class="projects-card-img" />
+                    <div class="p-3">
+                        <h1 class="projects-card-sub-title mb-3">Web design</h1>
+                        <h1 class="projects-card-title">Book Store</h1>
+                        <p class="projects-card-description">
+                            Book Store Website is basic web design which contains of three simple books and their breifs.......
+                        </p>
+                        <a class="projects-card-link" href="">
+                            Read More
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#cced00" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="services-section-bg pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="services-section-sub-heading mb-4 ">Services</h1>
+                <h1 class="services-section-heading mb-3 ">What I do</h1>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="shadow services-card mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-design-img.png" class="services-card-img" />
+                    <h1 class="services-card-title mt-2">Static Websites</h1>
+                    <p class="services-description">A Static Website contains Web pages with fixed content. Each page is developed using HTML and CSS and displays the same information to every visitor.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="shadow services-card mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-development-img.png" class="services-card-img" />
+                    <h1 class="services-card-title mt-2">Responsive Web design</h1>
+                    <p class="services-description">Responsive Web design is the approach that suggests that design and development should respond to the user's behaviour and environment based on screen size, platform and orientation.</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="shadow services-card mb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-customize-img.png" class="services-card-img" />
+                    <h1 class="services-card-title mt-2">Customiable Layouts</h1>
+                    <p class="services-description">Customisable sites are templates with set layouts. You may be able to change photos and colors, but your site will look similar to many other sites due to the template. The same goes for...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="inrenship-section pt-5 pb-5" id="Internship">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="inrenship-section-heading">Internships</h1>
+                <p class="inrenship-section-description">
+                    Internships & Certified Trainings
+                </p>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="inrenship-card p-3 mb-3">
+                    <img src="https://res.cloudinary.com/dmphy6zc7/image/upload/v1690104501/internshala-1678450352_cv4iig.jpg" class="inrenship-card-image" />
+                    <h1 class="wcu-card-title mt-3">Internshala</h1>
+                    <p class="inrenship-card-description">
+                        Internshala are a technology company on a mission to equip students with relevant skills & practical exposure to help them get the best possible start to their careers.
+                        I have done my WEB DEVELOPMENT design course and gained my certificate.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="inrenship-card p-3 mb-3">
+                    <img src="https://res.cloudinary.com/dmphy6zc7/image/upload/v1690104501/cisco-emblem_sifit9.jpg" class="inrenship-card-image" />
+                    <h1 class="inrenship-card-title mt-3">cisco</h1>
+                    <p class="inrenship-card-description">
+                        The Cisco Cybersecurity course provides comprehensive training on the latest security technologies and best practices, equipping participants to defend against evolving cyber threats effectively.
+                        This is my Time Worthy Training Process
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="inrenship-card p-3 mb-3">
+                    <img src="https://res.cloudinary.com/dmphy6zc7/image/upload/v1690104545/WhatsApp_Image_2023-07-19_at_1.47.06_PM_re82qz.jpg" class="inrenship-card-image" />
+                    <h1 class="inrenship-card-title mt-3">Blue Prism RPA Developer</h1>
+                    <p class="inrenship-card-description">
+                        The Blue Prism RPA Developer course offers in-depth training on robotic process automation (RPA) using Blue Prism's platform, empowering individuals to automate business processes and improve efficiency. Participants will gain practical knowledge in creating, deploying, and managing software robots, making them proficient RPA developers in the industry.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="work-done-section-bg pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+                    <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z" />
+                </svg>
+                <hr class="hr-line" />
+                <h1 class="work-done-section-heading">15</h1>
+                <p class="work-done-section-description">Projects Completed</p>
+            </div>
+            <div class="col-4 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-file-text" viewBox="0 0 16 16">
+                    <path d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z" />
+                    <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z" />
+                </svg>
+                <hr class="hr-line" />
+                <h1 class="work-done-section-heading">5,600</h1>
+                <p class="work-done-section-description">Lines of Code</p>
+            </div>
+            <div class="col-4 text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-clock" viewBox="0 0 16 16">
+                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z" />
+                </svg>
+                <hr class="hr-line" />
+                <h1 class="work-done-section-heading">36</h1>
+                <p class="work-done-section-description">Hours Worked</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer-section-bg pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-12 mb-3">
+                <div class="d-flex flex-row ">
+                    <img src="https://res.cloudinary.com/dmphy6zc7/image/upload/v1689791862/362d2976_1_wdygql.jpg" class="footer-section-img" />
+                    <div class="ml-3">
+                        <h1 class="footer-section-heading ">Deepak</h1>
+                        <p class="footer-section-description">Frontend Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-3">
+                <h1 class="footer-section-heading mb-4">Phone No.</h1>
+                <div>
+                    <i class="fas fa-phone-alt footer-icon">
+                        <span class="footer-section-description ml-2">7036298024</span>
+                    </i>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <h1 class="footer-section-heading mb-4">E-mail</h1>
+                <div>
+                    <i class="fas fa-envelope footer-icon">
+                        <span class="footer-section-description ml-2">deepakduda80@gmail.com</span>
+                    </i>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mb-4">
+                <h1 class="footer-section-heading mb-4">Address</h1>
+                <div>
+                    <i class="fas fa-map-marked-alt footer-icon">
+                    <span class="footer-section-description ml-2">20-40-15 Rellivedhi, Vizag, Andhra Pradesh,India</span>
+                </i>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<div class="follow-us-section pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="follow-us-section-heading">Follow Us</h1>
+            </div>
+            <div class="col-12">
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="follow-us-icon-container">
+                        <a href="https://www.instagram.com/deepak_deepu_7036/?igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp icon"></i></a>
+                    </div>
+                    <div class="follow-us-icon-container">
+                        <a href="https://www.instagram.com/deepak_deepu_7036/?igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram icon"></i></a>
+                    </div>
+                    <div class="follow-us-icon-container">
+                        <a href="https://www.linkedin.com/in/deepak-duda/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin icon"></i></a>
+                    </div>
+                    <div class="follow-us-icon-container">
+                        <a href="https://www.linkedin.com/in/deepak-duda/" target="_blank" rel="noopener noreferrer"><i class="fab fa-github icon"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer-section-copyright-container">
+    <i class="fa fa-copyright footer-icon" aria-hidden="true">
+    </i>
+    <span class="footer-section-description">2023 by Deepak Duda. Created with Bootstrap</span>
+</div>
+
+<script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+
+</html>

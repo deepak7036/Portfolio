@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.nav-head {
+    font-family: "roboto";
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: #4b6cc1;
+}
+#nav-item1{
+    font-family: "roboto";
+    color:white;
+}
+#nav-item2{
+    font-family: "roboto";
+    color:white;
+}
+#nav-item3{
+    font-family: "roboto";
+    color:white;
+}
+#nav-item4{
+    font-family: "roboto";
+    color:white;
+}
+#nav-item5{
+    font-family: "roboto";
+    color:white;
+}
+.banner-section-bg-container{
+    background-color:#191a1d;
+    height:100vh;
+}
+.banner-section-img{
+    width:280px;
+    margin-bottom:10px;
+}
+.banner-section-heading{
+    color:white;
+    font-family:"roboto";
+    font-size:45px;
+    font-weight: 300;
+}
+.person-name{
+    color:#4b6cc1;
+}
+.banner-section-description{
+    color:#9aa5b1;
+    font-family:"Roboto";
+    font-size:24px;
+}
+.banner-custom-button{
+    color:white;
+    background-color:#4b6cc1;
+    width:130px;
+    height:45px;
+    border-width:0px;
+    border-radius:8px;
+}
+
+.about-me-section-bg {
+    background-color: #323f4b;
+}
+.about-me-section-sub-heading{
+    color:#cced00;
+    font-family:"roboto";
+    font-size:20px;
+    font-weight:bold;
+}
+.about-me-section-heading{
+    color:white;
+    font-family:"roboto";
+    font-size:36px;
+    font-weight:bold;
+}
+.about-me-section-img{
+    width: 100%;
+    border-radius:20px;
+}
+.about-me-section-description{
+    color:#9aa5b1;
+    font-family:"roboto";
+    font-size:16px;
+}
+
+.skills-section-bg {
+    background-color: #1f2933;
+}
+.skills-section-sub-heading{
+    color:#cced00;
+    font-family:"roboto";
+    font-size:20px;
+    font-weight:bold;
+}
+.skills-card{
+    background-color: #323f4b;
+    border-radius:8px;
+    padding:10px;
+}
+.skills-img{
+    width:64px;
+    height:64px;
+}
+.skills-card-title{
+    color:white;
+    font-family:"roboto";
+    font-size:22px;
+    font-weight:bold;
+    margin-top:10px;
+}
+
+.projects-section-bg {
+    background-color: #3e4c59;
+}
+
+.Projects-section-sub-heading {
+    color: #cced00;
+    font-family: "roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Projects-section-heading {
+    color: white;
+    font-family: "roboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.projects-card {
+    background-color: #323f4b;
+    border-radius: 8px;
+}
+
+.projects-card-img {
+    width: 100%;
+}
+
+.projects-card-sub-title {
+    color: #9aa5b1;
+    font-family: "roboto";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.projects-card-title {
+    color: white;
+    font-family: "roboto";
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.projects-card-description {
+    color: #9aa5b1;
+    font-family: "roboto";
+    font-size: 20px;
+}
+
+.projects-card-link {
+    color: #cced00;
+    font-family: "roboto";
+    font-size: 14px;
+    font-weight: bold;
+}
+.services-section-bg {
+    background-color: #52606d;
+}
+
+.services-section-sub-heading {
+    color: #cced00;
+    font-family: "roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.services-section-heading {
+    color: white;
+    font-family: "roboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+
+
+.services-card {
+    background-color: #323f4b;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.services-card-img {
+    height: 48px;
+    width: 48px;
+}
+
+.services-card-title {
+    color: white;
+    font-family: "roboto";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.services-description {
+    color: #9aa5b1;
+    font-family: "roboto";
+    font-size: 20px;
+}
+
+.inrenship-section {
+    background-color: #3e4c59;
+}
+
+.inrenship-section-heading {
+    color: #cced00;
+    font-family: "roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inrenship-section-description {
+    color: white;
+    font-family: "roboto";
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+.inrenship-card {
+    background-color: #323f4b;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+
+}
+
+.inrenship-card-image {
+    width: 200px;
+    height: 300px;
+}
+
+.inrenship-card-title {
+    color: white;
+    font-family: "roboto";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.inrenship-card-description {
+    color: #9aa5b1;
+    font-family: "roboto";
+    font-size: 20px;
+}
+
+.work-done-section-bg {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png");
+    background-size: cover;
+}
+
+.hr-line {
+    background-color: white;
+    width: 60px;
+}
+
+.work-done-section-heading {
+    color: white;
+    font-family: "roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.work-done-section-description {
+    color: white;
+    font-family: "roboto";
+    font-size: 16px;
+}
+.footer-section-bg {
+    background-color: #0d2436;
+}
+
+.footer-section-img {
+    height: 60px;
+    width: 60px;
+    border-radius: 40px;
+}
+
+.footer-section-heading {
+    color: #cced00;
+    font-family: "roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-section-description {
+    color: #9aa5b1;
+    font-family: "roboto";
+    font-size: 14px;
+}
+
+.footer-icon {
+    color: #5a7184;
+    font-size: 18px;
+}
+
+.follow-us-section {
+    background-color:#52606d;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #323f4b;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: #d0b200;
+    font-size: 35px;
+}
+.footer-section-copyright-container{
+    text-align: center;
+    color:#ffffff;
+    background-color:#001c32;
+    padding:10px;
+}
